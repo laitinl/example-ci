@@ -10,6 +10,11 @@ def test_add():
 def test_subtract():
     assert subtract(2, 3) == -1
 
+def test_multiply():
+    assert multiply(1, 2) == 2
+    assert multiply(2, 2) == 4
+    assert multiply(0, 2) == 0
+
 # uncomment the following test in step 11
 # def test_convert_fahrenheit_to_celsius():
 #    assert f2c(32) == 0
